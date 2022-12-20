@@ -313,6 +313,15 @@ section:nth-child(2n+1){
 	
 }
 
+#param-logo{
+	background-image: url("image/param.jpg");
+	width:20%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right:1rem;
+	
+}
+
 #time-line{
 	position: absolute;
 	width: 0;
@@ -355,6 +364,23 @@ section:nth-child(2n+1){
 	left:-14%;
 	z-index: 1;
 }
+
+/*-------------------------------Education-------------------------------*/
+
+.edu{
+	width:70%;
+	position: relative;
+	margin-bottom: 2rem;
+}
+
+#cbse-logo{
+	background-image: url("image/cbse-logo.png");
+	width:20%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right:1rem;
+}
+
 
 /*-------------------------------Portfolio--------------------------------*/
 
@@ -586,8 +612,9 @@ footer nav{
 
 
 @media screen and (max-width:572px){
-
-
+	h1{
+		font-size: 8rem;
+	}
 	
 	#menu:hover .nav-sec a{
 		display: block;
@@ -612,14 +639,5 @@ footer nav{
 	.nav-sec a{
 		display: none;
 	}
-
-	
-
-
-
-	
-
-
-	
 	
 }
