@@ -367,6 +367,10 @@ section:nth-child(2n+1){
 
 /*-------------------------------Education-------------------------------*/
 
+#education{
+	background : #a5868a1f;
+}
+
 .edu{
 	width:70%;
 	position: relative;
@@ -599,6 +603,7 @@ footer nav{
 	#contact-info{
 		flex-direction: column;
 		align-items: center;
+/*		justify-content: center;*/
 	}
 
 	form{
@@ -608,12 +613,23 @@ footer nav{
 	#my-info{
 		width:100%;
 	}
+
+	.button{
+		width: 40%;
+	}
 }
 
 
 @media screen and (max-width:572px){
+	#social h1 {
+    	color: #fff;
+    	font-size: 3rem;
+    	margin-top: 16vh;
+    	margin-bottom: 0px;
+	}
+
 	h1{
-		font-size: 8rem;
+		font-size: 2rem;
 	}
 	
 	#menu:hover .nav-sec a{
@@ -640,4 +656,16 @@ footer nav{
 		display: none;
 	}
 	
+/*-----------------------------------Contact-------------------------------*/
+
+
+	.button{
+		width:50%;
+	}
+}
+
+@media screen and (max-width:330px){
+	.button{
+		width: 60%;
+	}
 }
