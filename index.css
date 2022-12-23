@@ -201,27 +201,37 @@ section:nth-child(2n+1){
 
 .c{
 	background-color: #8911abf0;
-	width:75%;
+	width:70%;
 }
 
 .javascript{
 	background-color: #e1e016f0;
-	width:75%;
+	width:60%;
 }
 
 .html{
 	background-color: #e700daf0;
-	width:90%;
+	width:70%;
 }
 
 .css{
 	background-color:#58391af0 ;
-	width:90%;
+	width:70%;
 }
 
 .python{
 	background-color: #6cbf46f0;
-	width:72%;
+	width:75%;
+}
+
+.java{
+	background-color: #8911abf0;
+	width:70%;
+}
+
+.sql{
+	background-color: #d1a22bf0;
+	width:65%;
 }
 
 /*-----------------------------------Work Experience----------------------*/
