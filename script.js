@@ -71,3 +71,27 @@ function checkSec(){
 }
 
 window.addEventListener("scroll", checkSec);
+
+
+//---------------------------------- DropDown -----------------------------------
+var bar = document.getElementById("bar");
+var close = document.getElementById("close");
+var dropDown = document.getElementById("dropDown");
+var count = 0;
+bar.addEventListener("click", function(event){
+	
+		dropDown.style.display="block";
+		close.style.display = "inline-block";
+		bar.style.display = "none";
+	
+});
+
+close.addEventListener("click", function(){
+	
+		dropDown.style.display="none";
+		close.style.display = "none";
+		bar.style.display = "inline-block";
+		count++;
+	
+	
+});
